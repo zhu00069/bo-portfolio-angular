@@ -1,0 +1,65 @@
+<!-- <section class="education">
+  <div class="content-wrap">
+   
+    <h2>Education</h2>
+    <section>
+      <h3>Algonquin College</h3>
+      <img class="ui medium bordered image" src="/assets/image/AC.jpg">
+      <p>Computer Programmer</p>
+      <p>Diploma, May 2019</p>
+    </section>
+    
+    <h2>Skills</h2>
+    <section>
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Languages: Typescript, JavaScript, Java, PHP, Node JS</li>
+        <li>Web & Frameworks: HTML, CSS, jQuery, Bootstrap, Express JS, Angular4</li>
+        <li>API & Cloud: API development, Async server call</li>
+        <li>Scripting: Bash script, SQL</li>
+        <li>Java: Junit, OOP, JDBC, MVC, Maven, Hibernate, JPA, RESTful web service</li>
+        <li>Databases: PostgreSQL, MySQL, Oracle, SQL Server, Toad</li>
+        <li>Test Tools: Postman, Google Developer Tool, JUnit4</li>
+        <li>IDEs: Mendix modeler, VS Code, </li>
+        <li>Version Control System & Repository: Git, GitHub, Bitbucket, Slack, Trello, Jira</li>
+        <li>Web Servers: Tomcat, Payara</li>
+        <li>Operating System: Windows10, OX S, Linux - Ubuntu</li>
+      </ul>
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Multitasking skill</li>
+        <li>Detailed-oriented & reliable</li>
+        <li>Excellent communication skill</li>
+      </ul>
+    </section>
+  </div>
+</section> -->
+
+<div class="ui stackable grid container">
+  <div class="ui three column grid">
+    <div class="column">
+      <div class="ui segment">
+        <h3 class="ui block header">Algonquin College</h3>
+        <img class="ui medium bordered image" src="/assets/image/AC.jpg">
+        <p>Computer Programmer</p>
+        <p>Diploma, May 2019</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment">
+        <h3 class="ui block header">Technical Skills</h3>
+        <ul>
+          <li *ngFor="let techSkill of techSkills">{{techSkill}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment">
+        <h3 class="ui block header">Soft Skills</h3>
+        <ul>
+          <li *ngFor="let softSkill of softSkills">{{softSkill}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
