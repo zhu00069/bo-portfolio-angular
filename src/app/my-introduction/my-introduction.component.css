@@ -1,8 +1,11 @@
-
-.content-wrap{
-    margin-top: 25px;
-    background-color:SEASHELL;
+.introduction {
+    background:rgb(168, 224, 243);
 }
+
+.content-wrap {
+    padding: 20px 0 20px 0; /*padding top, right, bottom, left*/
+}
+
 h1,h2 {
     text-align : center;
     }
@@ -10,11 +13,9 @@ h1,h2 {
 .ui medium image {
     text-align: center;
   }
-.ui segment{
-    background-color: lightblue;
 
-}
 p{  
+   
     background-color: lightblue;
     padding-top: 50px;
     padding-right: 80px;

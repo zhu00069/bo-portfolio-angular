@@ -1,0 +1,28 @@
+.projects {
+    background: ivory;
+  }
+  
+  .ui stackable grid container{
+    background-color:azure;
+}
+
+.content-wrap {
+    padding: 20px 0 40px 0; /*padding top, right, bottom, left*/
+}
+
+.project-item {  
+    margin-bottom: 40px; /*img's margin right value*/
+    
+}	
+.btn {
+        color: Mustard;
+        background: burlywood;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 4px;
+        display: inline-block;
+
+}
+.btn:hover{
+    background: rgba(218, 201, 182, 0.8); /*become color grey when hover the button*/
+}

@@ -1,0 +1,26 @@
+.work-experience {
+    background: mintcream;
+}
+
+.content-wrap {
+    padding: 20px 0 20px 0; /*padding top, right, bottom, left*/
+}
+
+.job-item { /*job item use grid*/
+    display: grid;
+    grid-template-columns: 2fr 3fr; /*job-details is 2 columns, job-summary is 3 columns in job item*/
+    column-gap: 25px; /*gutter*/
+}
+.job-details h3 + p {   /*adjacent sibling combinator*/
+	font-style: italic; /*globle style, set <p> following <h3> to font-style italic, and no margin between the lines in class item-details*/
+	margin: 0;
+	font-size: medium;
+}
+.divider > section {  /*child combinator, only match to direct child element, class divider is parent, > section is child*/
+    border-bottom: 2px dashed rgb(187, 187, 187); /* moved from project section, make it re-useable*/
+    margin-top: 15px;
+    padding: 15px;
+}
+.divider > section:last-of-type {
+    border-bottom: none; /*no border-bottom line at the last one type*/
+}

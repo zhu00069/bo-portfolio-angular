@@ -1,0 +1,13 @@
+.content-wrap{
+    margin: 0 auto;
+    background-color:rgb(245, 239, 242);
+    padding: 20px 0 40px 0;
+}
+
+.contact-item-list{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    
+}
+

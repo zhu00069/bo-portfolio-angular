@@ -1,0 +1,11 @@
+
+.education {
+    background: rgb(231, 241, 225);
+}
+
+.content-wrap {
+    padding: 20px 0 20px 0; /*padding top, right, bottom, left*/
+}
+ p{
+ margin-top:  15px;
+}
