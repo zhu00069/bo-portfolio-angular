@@ -47,12 +47,7 @@
         <div class="job-summary">
           <p>Job Description:</p>
           <ul>
-            <li>Performed database installations and configurations</li>
-            <li>Migrated database from CSV/ MS Access to MySQL </li>
-            <li>Created a relational database (12 tables with a large records) and maintained database regularly</li>
-            <li>Developed a general code for load all tables and achieved CRUD on data based on open source library</li>
-            <li>Implemented SQL queries and developed web-based business reports with PHP</li>
-            <li>Generated excel reports from database through JDBC connector</li>
+            <li *ngFor="let job_Shop_Description of job_Shop_Descriptions">{{job_Shop_Description}}</li>
           </ul>
         </div>
       </section>

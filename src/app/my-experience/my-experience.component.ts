@@ -34,6 +34,16 @@ export class MyExperienceComponent implements OnInit {
     "https://onyxerponline.com/"
   ]
 
+  job_Shop_Descriptions = [
+
+    "Performed database installations and configurations",
+    "Migrated database from CSV/ MS Access to MySQL",
+    "Created a relational database (12 tables with a large records) and maintained database regularly",
+    "Developed a general code for load all tables and achieved CRUD on data based on open source library",
+    "Implemented SQL queries and developed web-based business reports with PHP",
+    "Generated excel reports from database through JDBC connector"
+  ]
+
   ngOnInit(): void {
   }
 
